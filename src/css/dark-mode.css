@@ -1,0 +1,152 @@
+.switcher-btn {
+  width: 42px;
+  height: 27px;
+  border: none;
+  background: url(/img/switcher-left.svg);
+}
+
+.switcher-btn.active {
+  background: url(/img/switcher-right.svg);
+}
+
+.menu-nav-shop,
+.menu-nav-link,
+.dark .logo-text,
+.dark .header-nav-link,
+.dark .header-nav-shop,
+.dark .home-title-book,
+.dark .js-named-bestBooks,
+.dark .js-btn-bestBooks,
+.dark .shopping-header,
+.dark .book-description,
+.dark .book-title,
+.dark .shopping-header,
+.dark .modal-content-title,
+.dark .modal-content-abst,
+.dark .modal-add-btn,
+.dark .modal-remove-btn {
+  color: var(--white);
+}
+
+.dark .header-nav-link.active,
+.dark .header-nav-shop.active {
+  color: var(--main-textcolor);
+}
+
+.dark .categories__link {
+  color: #fff9;
+}
+
+.dark .modal-text {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.dark .empty-list-text {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.dark .mob-close,
+.dark .icon-menu-openburger,
+.dark .modal-svg-close {
+  stroke: var(--white);
+}
+
+.dark header {
+  border-radius: 0px 0px 8px 8px;
+  border: 1.5px solid var(--white);
+}
+
+.theme-switch.active {
+  background: linear-gradient(180deg, #4f2ee8 0%, #686868 100%);
+}
+
+.theme-switch.active::before {
+  transform: translateX(26px);
+  background-color: var(--white);
+}
+
+.dark,
+.dark .modal-wrap,
+.dark .modal-add-btn,
+.dark .modal-remove-btn {
+  background-color: var(--background-dark);
+}
+
+.dark .modal-wrap {
+  border: 2px solid #fff;
+}
+
+.dark .categories__item--active a {
+  font-weight: 700;
+  color: var(--accent-color);
+  text-transform: uppercase;
+}
+
+.dark .categories__link:hover,
+.dark .categories__link:focus,
+.dark .categories__link:active,
+.dark .categories__link--active:hover,
+.dark .categories__link--active:focus,
+.dark .categories__link--active:active {
+  color: var(--accent-color);
+}
+
+.dark .catefories::-webkit-scrollbar {
+  background-color: var(--white);
+}
+
+.dark .catefories::-webkit-scrollbar-thumb {
+  background: #e0e0e0;
+}
+
+.dark .categories::-webkit-scrollbar-track {
+  background-color: var(--background-dark);
+}
+
+.dark .bookshelf,
+.bookshelf-dark,
+.cart-icon-white,
+.dark .cart-icon-dark,
+.active .menu-cart-white,
+.active .cart-icon-white,
+.menu-cart-dark {
+  display: none;
+}
+
+.dark .bookshelf-dark,
+.dark .cart-icon-white,
+.active .menu-cart-dark,
+.active .cart-icon-dark,
+.menu-cart-white {
+  display: block;
+}
+
+.active .cart-icon-white {
+  display: none;
+}
+
+.dark .amazon-icon img {
+  filter: invert(1);
+}
+.dark .book-card {
+  background-color: #000;
+}
+
+.dark .amazon {
+  filter: contrast(0) invert(1) brightness(2);
+}
+
+.dark .modal-svg-close:hover,
+.dark .modal-svg-close:focus {
+  stroke: var(--main-color);
+}
+
+.dark .js-btn-bestBooks {
+  background-color: var(--background-dark);
+}
+
+.dark .js-btn-bestBooks:hover, 
+.dark .js-btn-bestBooks:focus {
+  background-color: var(--accent-color);
+  color: #000;
+}
