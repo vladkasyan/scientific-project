@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookshelf</title>
+    
+    <script type="module" crossorigin src="/scientific-project/assets/index-2ed70b97.js"></script>
+    <link rel="modulepreload" crossorigin href="/scientific-project/assets/show-hide-password-7fc82c93.js">
+    <link rel="stylesheet" href="/scientific-project/assets/show-hide-password-f46cb9e1.css">
+  </head>
+
+  <body>
+    <header class="header">
+  <a class="header-logo" href="./index.html">
+    <img src="/scientific-project/assets/logo-00423362.svg" alt="logo" />
+    <img src="/scientific-project/assets/bookshelf-6a7e95da.svg" alt="bookshelf" class="bookshelf" />
+    <img
+      src="/scientific-project/assets/bookshelf__dark-theme-eb65f487.svg"
+      alt="bookshelf-dark"
+      class="bookshelf-dark"
+    />
+  </a>
+
+  <nav class="header-nav is-hidden" id="js-header-nav">
+    <ul class="header-nav-list">
+      <li class="header-nav-item">
+        <a href="./index.html" class="header-nav-link">home</a>
+      </li>
+      <li class="header-nav-item">
+        <a href="./shopping-list-page.html" class="header-nav-shop"
+          >shopping-list
+          <img src="/scientific-project/assets/cart-ae193ffb.svg" alt="cart" class="cart-icon-dark" />
+          <img
+            src="/scientific-project/assets/cart__dark-theme-73cf4d39.svg"
+            alt="cart"
+            class="cart-icon-white"
+          />
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="btns">
+    <button type="button" class="switcher-btn"></button>
+
+    <button type="button" class="mob-close-btn is-hidden" data-menu-close>
+      <svg class="mob-close" width="28" height="28">
+        <use href="/scientific-project/assets/sprite-577a1762.svg#icon-close"></use>
+      </svg>
+    </button>
+    <button class="mobile-menu" type="button" data-menu-open>
+      <svg class="icon-menu-openburger" width="28" height="28">
+        <use href="/scientific-project/assets/sprite-577a1762.svg#icon-burger"></use>
+      </svg>
+    </button>
+    <div class="user-form">
+      <button id="js-modal-open" class="btn-user" type="button">
+        <p class="text-btn">Sign up</p>
+        <svg class="btn-user-click" width="20" height="20">
+          <use href="/scientific-project/assets/sprite-577a1762.svg#icon-arrow-right"></use>
+        </svg>
+      </button>
+
+      <button class="btn-user-sign is-hidden" type="button">
+        <svg width="20" height="20">
+          <use href="/scientific-project/assets/sprite-577a1762.svg#icon-user"></use>
+        </svg>
+        <p class="text-btn" id="user-sign-name"></p>
+        <svg class="icon-scroll-top" width="20" height="20">
+          <use href="/scientific-project/assets/sprite-577a1762.svg#icon-scroll-top"></use>
+        </svg>
+      </button>
+      <button class="btn-user-out is-hidden" type="button">
+        <p class="text-btn-out">Log out</p>
+        <svg class="btn-user-click" width="20" height="20">
+          <use href="/scientific-project/assets/sprite-577a1762.svg#icon-arrow-right"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+    <main>
+      <aside class="aside-wrapper">
+        <section class="categories">
+  <ul class="categories__list all-categories">
+    <li class="categories__item categories__item--active">
+      <a class="categories__link" href="index.html"> All categories </a>
+    </li>
+  </ul>
+</section>
+
+        <div class="support-ukraine-container">
+    <div class="title-container">
+        <p class="support-ukraine-title">Support Ukraine</p>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAgCAYAAAASYli2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHlSURBVHgBrVbRccIwDBW9/jcbkA3IBk03oBM0G7QbABOUTgCdADpBYILQCcIGYQNXSp6J4jiE9PLudDaW9Cw5kg6iO2CMSVg+aCwwWc5S3Guc9OgjUyPqsY0JhhuWoMtIEcY3yITDkDLOfKROhHEH2c4aWMIC66fHOLyVMp8tNIclTCGtKCRqRTjtuEx8ty7hVemJokqn493gWxI+WOVkMjnzcmCJPW8pugu1MWf5gW+JB8fgG2vscb440YlNgCCoi/CENaR+RI6Pl/AygDB0fNqE6i2eqB9T+DQifPQYnqlOpxGNfCwmsBEFsKXOCIETqZSduoyc/fkmIcqlFFU6miR27KT+wk5CRgqnExwEb1gl1WfsbbmELLtG3aLSc1X1S6Wzg2Hva03er3EmpJluPePrV3VJbOoxtvFceIXu5bm6LTR1b2eKIFW9G5h6bM3t/koIh6VpQz/BAmeFqzfutFFOsbrZIlPRGZWJfs/mtLHgwj3wcsTPF5YVVaUjzl8sr9AdYduA7RR5j1Cd60G6pap0pDTWVJfTzPEp23VS5j0iJMKV53xG1fDcs/yyvONcUpboE6XrhyqZNX7nIthvoItoCPBVC5DnEHtRTkNh6s7IFGGKs4T+g75CH4N0SWPADPg79wcIXP3cyVjRhAAAAABJRU5ErkJggg==" alt="emblem" class="emblem" />
+    </div>
+    <div class="support-ukraine-list-container">
+        <ul class="support-ukraine-list list"></ul>
+    </div>
+    <button type="button" class="support-ukraine-btn">
+        <svg class="support-ukraine-btn-icon" width="20" height="20">
+            <use href="/scientific-project/assets/sprite-577a1762.svg#icon-scroll-top"></use>
+        </svg>
+    </button>
+</div>
+      </aside>
+      <section class="container-home">
+        <div class="container-bestBooks">
+  <div class="js-container-bestBooks"></div>
+  <button class="js-btn-bestBooks back">Back</button>
+</div>
+
+      </section>
+    </main>
+    <div class="scroll">
+  <svg width="32" height="32">
+    <use href="/scientific-project/assets/sprite-577a1762.svg#icon-scroll-top"></use>
+  </svg>
+</div>
+
+    <footer class="footer">
+        <div class="heard-backdrop isHidden"></div>
+        <div class="heard-container">
+                <button type="button" class="heard-btn">
+                        <svg class="heard-close" width="24" height="24">
+                                <use class="heard-close-icon" href="/scientific-project/assets/sprite-577a1762.svg#icon-x-close"></use>
+                        </svg>
+                </button>
+                <div class="center">
+                        <h2>Our team:</h2>
+                        <ul class="team-list">
+                                <li><a href="https://www.linkedin.com/in/artem-denysenko/" target="_blank"
+                                                rel="noreferrer noopener">Artem Denysenko</a></li>
+                                <li><a href="https://www.linkedin.com/in/bohdan-vivchar-1a4322182/" target="_blank"
+                                                rel="noreferrer noopener">Bohdan Vivchar</a></li>
+                                <li><a href="https://www.linkedin.com/in/ihor-koleiev-72b84b214/" target="_blank"
+                                                rel="noreferrer noopener">Ihor Koleiev</a></li>
+                                <li><a href="https://www.linkedin.com/in/ira-badalina-2780aa268/" target="_blank"
+                                                rel="noreferrer noopener">Irina Badalina</a></li>
+                                <li><a href="https://www.linkedin.com/in/kateryna-vdovychenko-29185a251" target="_blank"
+                                                rel="noreferrer noopener">Kateryna Vdovychenko</a></li>
+                                <li><a href="https://www.linkedin.com/in/olga-solod-29b177108/" target="_blank"
+                                                rel="noreferrer noopener">Olga Solod</a></li>
+                                <li><a href="https://github.com/vladkasyan" target="_blank"
+                                                rel="noreferrer noopener">Vladysla
+                                                Kasyan</a></li>
+                                <li><a href="https://www.linkedin.com/in/natalia-yastrzhemska-4b4a0112b/"
+                                                target="_blank" rel="noreferrer noopener">Natalia Yastrzhemska</a></li>
+                                <li><a href="https://www.linkedin.com/in/elena-skalko-038958b6" target="_blank"
+                                                rel="noreferrer noopener">Olena Skalko</a>
+                                </li>
+                        </ul>
+                </div>
+                <div class="leftpart"></div>
+                <div class="rigthpart"></div>
+        </div>
+</footer>
+    <div class="modal-backdrop hi-backdrop" data-modal>
+  <div class="modal-wrap" id="modalWindow">
+    <button type="button" class="modal-close-btn" data-action="close-modal">
+      <svg
+        class="modal-svg-close"
+        width="24"
+        height="24"
+        class="modal-svg-close"
+      >
+        <use href="/scientific-project/assets/sprite-577a1762.svg#icon-x-close"></use>
+      </svg>
+    </button>
+    <div class="modal-content">
+      <div class="modal-skeleton"></div>
+    </div>
+
+    <button type="button" class="modal-add-btn is-hidden">
+      Add to shopping list
+    </button>
+    <button type="button" class="modal-remove-btn is-hidden">
+      remove from the shopping list
+    </button>
+    <p class="modal-text is-hidden">
+      Сongratulations! You have added the book to the shopping list. To delete,
+      press the button “Remove from the shopping list”.
+    </p>
+  </div>
+</div>
+
+
+    <div class="mob-menu is-hidden" data-menu>
+  <button type="button" id="js-mobile-modal-open" class="sign-btn">
+    Sign up
+    <svg class="svg-arrow" width="20" height="20">
+      <use href="/scientific-project/assets/sprite-577a1762.svg#icon-arrow-right"></use>
+    </svg>
+  </button>
+
+  <div id="#js-menu-user" class="nav-user-menu is-hidden">
+    <div class="user-menu">
+      <svg width="30" height="30">
+        <use href="/scientific-project/assets/sprite-577a1762.svg#icon-user"></use>
+      </svg>
+      <p class="user-name"></p>
+    </div>
+    <nav class="menu-nav">
+      <ul class="menu-nav-list">
+        <li class="menu-nav-item">
+          <a href="./index.html" class="menu-nav-link">home</a>
+        </li>
+        <li class="menu-nav-item">
+          <a href="./shopping-list-page.html" class="menu-nav-shop"
+            >shopping-list
+            <img
+              src="/scientific-project/assets/cart__dark-theme-73cf4d39.svg"
+              alt="cart"
+              class="menu-cart-white"
+            />
+            <img src="/scientific-project/assets/cart-ae193ffb.svg" alt="cart" class="menu-cart-dark" />
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <button class="btn-user-out btn-user-out-mob" type="button">
+      <p class="text-btn-out">Log out</p>
+      <svg class="btn-user-click" width="20" height="20">
+        <use href="/scientific-project/assets/sprite-577a1762.svg#icon-arrow-right"></use>
+      </svg>
+    </button>
+  </div>
+</div>
+
+    <div id="js-modal" class="backdrop is-hidden-auth">
+  <div class="auth-modal-wrapper">
+    <button id="js-modal-close" type="button" class="auth-close-btn">
+      <svg width="20" height="20">
+        <use href="/scientific-project/assets/sprite-577a1762.svg#icon-close"></use>
+      </svg>
+    </button>
+    <form class="auth-modal">
+      <input
+        type="text"
+        id="input-name"
+        name="name"
+        placeholder="name"
+        autocomplete="off"
+      />
+      <input
+        type="email"
+        name="email"
+        placeholder="email"
+        autocomplete="off"
+        required
+      />
+      <input
+        type="password"
+        name="password"
+        placeholder="password"
+        autocomplete="off"
+        required
+      />
+      <input type="checkbox" name="checkbox" class="checkbox" />
+      <button type="submit" class="sign-up" id="submit-sign">Sign up</button>
+    </form>
+    <div class="auth-sign-btn">
+      <button class="active" id="sign-up">Sign up</button>
+      <button id="sign-in">Sign in</button>
+    </div>
+  </div>
+</div>
+
+
+    
+    
+    
+  </body>
+</html>
